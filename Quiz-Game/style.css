@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  background-color: #c7ede6;
+  color: #ed4f5f;
+  height: 10vh;
+  width: 100%;
+  /* line-height: 5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  background-color: #ed4f5f;
+  height: 30vh;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.questionDiv {
+  height: 5rem;
+  width: 100%;
+}
+
+.answerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.option {
+  background-color: aqua;
+}
+
+.nxt {
+  margin-top: 1rem;
+}
